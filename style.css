@@ -22,3 +22,8 @@
 {
 	margin-top:6rem;
 }
+
+.bullet-list
+{
+	list-style: none;
+}
