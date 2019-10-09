@@ -1,0 +1,113 @@
+html
+{
+	font-size:16px;
+}
+
+.gap-four-rem
+{
+	margin-bottom: 2rem;
+}
+
+/*Code from Density lab website*/
+
+footer li {
+	list-style: none;
+	margin: 0;
+	line-height: 1.5;
+}
+
+nav
+{
+	width: auto;
+	height: 6opx;
+}
+
+/* start of desktop styles */
+
+@media screen and (min-width: 768px) {
+/* start of large tablet styles */
+
+	.gap-lgScr-two-rem-top
+	{
+		margin-top: 2rem;
+	}
+	
+	.gap-lgScr-four-rem
+	{
+		margin-bottom: 4rem;
+	}
+	
+	.gap-lgScr-three-rem
+	{
+		margin-bottom: 4rem;
+	}
+	
+	.gap-lgScr-six-rem
+	{
+		margin-bottom: 6rem;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	
+}
+
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+	.gap-two-rem
+	{
+		margin-bottom: 2rem;
+	}
+	
+	.gap-four-rem
+	{
+		margin-bottom: 4rem;
+	}
+	
+	.gap-three-rem
+	{
+		margin-bottom: 3rem;
+	}
+	
+	.gap-six-rem
+	{
+		margin-bottom: 6rem;
+	}
+	
+	.gap-one-rem
+	{
+		margin-bottom: 1rem;
+	}
+
+}
+
+@media screen and (max-width: 575.98px) {
+/* start of phone styles */
+	.gap-two-rem
+	{
+		margin-bottom: 2rem;
+	}
+	
+	.gap-four-rem
+	{
+		margin-bottom: 4rem;
+	}
+	
+	.gap-three-rem
+	{
+		margin-bottom: 3rem;
+	}
+	
+	.gap-six-rem
+	{
+		margin-bottom: 6rem;
+	}
+	
+	.gap-one-rem
+	{
+		margin-bottom: 1rem;
+	}
+}
+
