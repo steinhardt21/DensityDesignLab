@@ -1,26 +1,11 @@
-.container-gap-top
+html
 {
-	margin-top:4rem;
+	font-size:16px;
 }
 
-.row-gap-4
+.gap-four-rem
 {
-	margin-top:4rem;
-}
-
-.row-gap-3
-{
-	margin-top:3rem;
-}
-
-.row-gap-1
-{
-	margin-top:1rem;
-}
-
-.footer-gap
-{
-	margin-top:6rem;
+	margin-bottom: 2rem;
 }
 
 /*Code from Density lab website*/
@@ -31,15 +16,43 @@ footer li {
 	line-height: 1.5;
 }
 
-/*Margin in the right way */
-
+nav
+{
+	width: auto;
+	height: 6opx;
+}
 
 /* start of desktop styles */
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) {
 /* start of large tablet styles */
 
+	.gap-lgScr-two-rem-top
+	{
+		margin-top: 2rem;
+	}
+	
+	.gap-lgScr-four-rem
+	{
+		margin-bottom: 4rem;
+	}
+	
+	.gap-lgScr-three-rem
+	{
+		margin-bottom: 4rem;
+	}
+	
+	.gap-lgScr-six-rem
+	{
+		margin-bottom: 6rem;
+	}
+
 }
+
+@media screen and (max-width: 767px) {
+	
+}
+
 
 @media screen and (max-width: 767px) {
 /* start of medium tablet styles */
@@ -58,9 +71,14 @@ footer li {
 		margin-bottom: 3rem;
 	}
 	
-	.gap-four-rem
+	.gap-six-rem
 	{
-		margin-bottom: 4rem;
+		margin-bottom: 6rem;
+	}
+	
+	.gap-one-rem
+	{
+		margin-bottom: 1rem;
 	}
 
 }
@@ -82,10 +100,14 @@ footer li {
 		margin-bottom: 3rem;
 	}
 	
-	.gap-four-rem
+	.gap-six-rem
 	{
-		margin-bottom: 4rem;
+		margin-bottom: 6rem;
 	}
-
+	
+	.gap-one-rem
+	{
+		margin-bottom: 1rem;
+	}
 }
 
