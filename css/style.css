@@ -77,6 +77,6 @@ h4
 @font-face {
     font-family: "FoundersGrotesk";
     font-weight: bold;
-	font-style:normal;
+    font-style:normal;
     src: url("font/FoundersGrotesk-Bold.otf") format("opentype");
 }
