@@ -23,14 +23,14 @@ h4
     font-family: "FoundersGrotesk";
     font-weight: semibold;
 	font-style: italic;
-    src: url("file:///C:/Users/Alex/Desktop/Design/Website/Finezze/font/FoundersGrotesk-SemiboldItalic.otf");
+    src: url("font/FoundersGrotesk-SemiboldItalic.otf");
 }
 
 @font-face {
 	font-family: "FoundersGrotesk";
 	font-weight: regular; 
 	font-style: normal;
-	src: url("file:///C:/Users/Alex/Desktop/Design/Website/Finezze/font/FoundersGrotesk-Regular.otf");
+	src: url("font/FoundersGrotesk-Regular.otf");
 } 
 @font-face {
     font-family: "FoundersGrotesk";
