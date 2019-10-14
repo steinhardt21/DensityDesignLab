@@ -10,6 +10,13 @@ nav
 	height: 6opx;
 }
 
+h4
+{
+	font-family: "FoundersGrotesk";
+    font-weight: semibold;
+	font-style: italic;
+}
+
 /**************************FONT****************************************/
 
 @font-face {
