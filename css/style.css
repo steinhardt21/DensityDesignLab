@@ -10,3 +10,66 @@ nav
 	height: 6opx;
 }
 
+/**************************FONT****************************************/
+
+@font-face {
+    font-family: "FoundersGrotesk";
+    font-weight: semibold;
+	font-style: italic;
+    src: url("file:///C:/Users/Alex/Desktop/Design/Website/Finezze/font/FoundersGrotesk-SemiboldItalic.otf");
+}
+
+@font-face {
+	font-family: "FoundersGrotesk";
+	font-weight: regular; 
+	font-style: normal;
+	src: url("file:///C:/Users/Alex/Desktop/Design/Website/Finezze/font/FoundersGrotesk-Regular.otf");
+} 
+@font-face {
+    font-family: "FoundersGrotesk";
+    font-weight: regular;
+	font-style:italic;
+    src: url("font/FoundersGrotesk-RegularItalic.otf") format("opentype");
+}
+@font-face {
+    font-family: "FoundersGrotesk";
+    font-weight: semibold;
+	font-style: normal;
+    src: url("font/FoundersGrotesk-Semibold.otf") format("opentype");
+}
+@font-face {
+    font-family: "FoundersGrotesk";
+    font-weight: medium;
+	font-style:italic;
+    src: url("font/FoundersGrotesk-MediumItalic.otf") format("opentype");
+}
+@font-face {
+    font-family: "FoundersGrotesk";
+    font-weight: medium;
+	font-style:normal;
+    src: url("font/FoundersGrotesk-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "FoundersGrotesk";
+    font-weight: light;
+	font-style:normal;
+    src: url("font/FoundersGrotesk-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "FoundersGrotesk";
+    font-weight: light;
+	font-style:italic;
+    src: url("font/FoundersGrotesk-LightItalic.otf") format("opentype");
+}
+@font-face {
+    font-family: "FoundersGrotesk";
+    font-weight: bold;
+	font-style:italic;
+    src: url("font/FoundersGrotesk-BoldItalic.otf") format("opentype");
+}
+@font-face {
+    font-family: "FoundersGrotesk";
+    font-weight: bold;
+	font-style:normal;
+    src: url("font/FoundersGrotesk-Bold.otf") format("opentype");
+}
