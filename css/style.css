@@ -1,151 +1,232 @@
-
 body {
-	background-color: #CCD6DD;
-	color: #000000;
+	background-color: #a5bdc6;
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
 }
 
 footer li {
 	list-style: none;
 	margin: 0;
 	line-height: 1.5;
+    font-size: 0.9em;
+    
+}
+
+li {
+	list-style: none;
+	margin: 0;
+        font-size: 0.9em;
+}
+
+ul {
+	padding:0;
+            font-size: 0.9em;
 }
 
 nav
 {
-	width: auto;
-	height: 6opx;
+	/* width: auto;
+	height: 6opx; */
+	background-color: #a5bdc6;
 }
+
+/****** Image loader*************/
+.spinner
+{
+	width: 80px;
+	height: 80px;
+	
+	border: 2px solid #f3f3f3;
+	border-top: 3px solid #f25a41;
+	border-radius: 100%;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	
+}
+
+@keyframes spin
+{
+	from{
+		transform: rotate(0deg);
+	}to
+	{
+		transform: rotate();
+	}	
+}
+
+.navbar {
+    font-size: 1em;
+}
+
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+#right{
+    margin-top: -15px;
+}
+
+
+img.infographic {
+  /* Set rules to fill background */
+  min-height: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+}
+
+.title{
+   /* font-family: "FoundersGrotesk-Regular"; */
+}
+
+.linkdata{
+   /* font-family: "FoundersGrotesk-Regular"; */
+    color:white;
+}
+
+.download{
+   /* font-family: "FoundersGrotesk-Regular"; */
+    color:black;
+    
+}
+
+.custom-cur {
+  cursor: url(img/cursor.png), auto;
+}
+
+.description {
+  font-size: 0.8em;
+    line-height: 1px;
+
+}
+
+img.image_2
+{	
+  /* Set up proportionate scaling */
+  max-width:60%;
+  height:auto;
+}
+
+
+
+/*************************Font&dimensions******************************************/
+#navbar
+{
+    /* font-weight: medium; */
+	/*font-style: normal;
+	/*font-size: 1.2em;*/
+	
+}
+
+.title_group
+{
+	/* font-family: "FoundersGrotesk"; */
+    /* font-weight: regular; */
+	/* font-style: normal; */
+	/* font-size: 1.2em; */
+	line-height: 27px
+}
+
+.title_infographic
+{
+    /* font-weight: medium; */
+	/* font-style: normal; */
+	/* font-size: 3em; */
+	
+	font-size: 42px; 
+	font-weight: 600;
+}
+
+.title_section
+{
+	font-size: 32px; 
+	font-weight:900;
+	/* font-family: "FoundersGrotesk"; */
+    /* font-weight: medium; */
+	/* font-style: normal; */
+	/* font-size: 2.2em; */
+}
+
+#title_small_section
+{
+	/* font-family: "FoundersGrotesk"; */
+    /* font-weight: medium; */
+	/* font-style: normal; */
+	/* font-size: 0.3em; */
+}
+
+#text_section
+{
+	/* font-family: "FoundersGrotesk"; */
+    /* font-weight: regular; */
+	/* font-style: normal; */
+	/* font-size: 1.2em; */
+}
+
+#text_description
+{
+	/* font-family: "FoundersGrotesk"; */
+    /* font-weight: medium; */
+	/* font-style: normal; */
+	/* font-size: 1.3em; */
+} 
+
+.final_title
+{
+	/* font-family: "FoundersGrotesk-Medium"; */
+    /* font-weight: medium; */
+	/* font-style: normal; */
+	/* font-size: 1.3em; */
+}
+
+
 
 
 /*************************HOVER TITLE SECTIONS*************************************/
-h2.title_section_1:hover
+.title_section_hover:hover
 {
-	color: white;
 	text-decoration: underline;
-	font-family: "FoundersGrotesk";
-    font-weight: regular;
-	font-style: italic;
+	/* font-family: "FoundersGrotesk-MediumItalic"; */
+    /* font-weight: regular; */
+	 font-style: italic;
+    
 }
 
-h2.title_section_2:hover
-{
-	color: red;
-	text-decoration: underline;
-	font-family: "FoundersGrotesk";
-    font-weight: semibold;
-	font-style: italic;
+.linkdata:hover{
+	/* text-decoration: underline; */
+	/* font-family: "FoundersGrotesk-MediumItalic"; */
+    /* font-weight: regular; */
+	/* font-style: italic; */
+    /* color:black; */
+    
 }
 
+.download:hover{
+	/* text-decoration: underline; */
+	/* font-family: "FoundersGrotesk-MediumItalic"; */
+    /* font-weight: regular; */
+    /* color:white; */
+    
+}
 
-/**************************OVERLAPPING IMAGES**************************************/
+/************************FONT NAVBAR******************************/
 
-@media (min-width: 768px) 
-{ 
-	.overlapping_section_1 ul 
-	{
-	  display: grid;
-	  grid-template-columns: 1fr 1fr 1fr 1fr 4fr ;
-	  grid-template-rows: 1fr 10fr 1fr ;
-	  width: 100%; 
-	  height: 600px;
+@media (max-width: 540px) { 
+	.navbar {
+		
+		font-size:1em;
 	}
-
-	.overlapping_section_1 li:nth-child(1) {
-	  grid-row: 1 / span 3;
-	  grid-column: 1 / span 2;
-	   }
-
-	.overlapping_section_1 li:nth-child(2) {
-	  grid-row: 2 / span 4;
-	  grid-column: 2 / span 3; 
-	  z-index: 2;}
-
-
-	.overlapping_section_2 ul 
-	{
-	  display: grid;
-	  grid-template-columns: 4fr 2fr;
-	  grid-template-rows: 1f 3f 3f ;
-	  width: 100%; 
-	  height: 600px;
-	}
-
-	.overlapping_section_2 li:nth-child(1) {
-	  grid-row: 1 / span 3;
-	  grid-column: 1 / span 2;
-	   }
-
-	.overlapping_section_2 li:nth-child(2) {
-	  grid-row: 2 / span 1;
-	  grid-column: 2 / span 3; 
-	  z-index: 2;}
-
-
-
 }
+    
+    
 
-
-/**************************FONT****************************************/
-
-@font-face {
-    font-family: "FoundersGrotesk";
-    font-weight: semibold;
-	font-style: italic;
-    src: url("file:///C:/Users/Alex/Desktop/Design/Website/Finezze/font/FoundersGrotesk-SemiboldItalic.otf");
-}
-
-@font-face {
-	font-family: "FoundersGrotesk";
-	font-weight: regular; 
-	font-style: normal;
-	src: url("file:///C:/Users/Alex/Desktop/Design/Website/Finezze/font/FoundersGrotesk-Regular.otf");
-} 
-@font-face {
-    font-family: "FoundersGrotesk";
-    font-weight: regular;
-	font-style:italic;
-    src: url("font/FoundersGrotesk-RegularItalic.otf") format("opentype");
-}
-@font-face {
-    font-family: "FoundersGrotesk";
-    font-weight: semibold;
-	font-style: normal;
-    src: url("font/FoundersGrotesk-Semibold.otf") format("opentype");
-}
-@font-face {
-    font-family: "FoundersGrotesk";
-    font-weight: medium;
-	font-style:italic;
-    src: url("font/FoundersGrotesk-MediumItalic.otf") format("opentype");
-}
-@font-face {
-    font-family: "FoundersGrotesk";
-    font-weight: medium;
-	font-style:normal;
-    src: url("font/FoundersGrotesk-Medium.otf") format("opentype");
-}
-@font-face {
-    font-family: "FoundersGrotesk";
-    font-weight: light;
-	font-style:normal;
-    src: url("font/FoundersGrotesk-Light.otf") format("opentype");
-}
-@font-face {
-    font-family: "FoundersGrotesk";
-    font-weight: light;
-	font-style:italic;
-    src: url("font/FoundersGrotesk-LightItalic.otf") format("opentype");
-}
-@font-face {
-    font-family: "FoundersGrotesk";
-    font-weight: bold;
-	font-style:italic;
-    src: url("font/FoundersGrotesk-BoldItalic.otf") format("opentype");
-}
-@font-face {
-    font-family: "FoundersGrotesk";
-    font-weight: bold;
-	font-style:normal;
-    src: url("font/FoundersGrotesk-Bold.otf") format("opentype");
-}
 
