@@ -132,11 +132,7 @@ img.infographic {
   cursor: url(img/cursor.png), auto;
 }
 
-.description {
-  font-size: 0.8em;
-    /* line-height: 1px; */
 
-}
 
 img.image_2
 {	
@@ -284,6 +280,16 @@ img.image_2
 	}
 }
     
+	
+@media (min-width: 769px) { 
+
+	
+	.description_text {
+		font-size: 0.8em;
+		line-height: 24px;
+
+	}
+}
     
 
 
