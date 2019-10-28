@@ -4,7 +4,6 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
 	font-weight: 300;
-	overflow: hidden;
 }
 
 footer li {
@@ -39,17 +38,15 @@ nav
 /* Center the loader */
 #loader {
   position: absolute;
-  left: 50%;
-  top: 50%;
   z-index: 1;
-  width: 100px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 16px;
-  border-radius: 0%;
-  border-top: 16px;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
   background-color: #FFFFFF;
@@ -85,7 +82,8 @@ nav
 }
 
 #myDiv {
-  display: none;
+  
+  
 }
 
 
@@ -251,11 +249,27 @@ img.image_2
 
 /************************FONT NAVBAR******************************/
 
-@media (max-width: 540px) { 
+@media (max-width: 768px) { 
 	.navbar {
 		
 		font-size:1em;
 	}
+	
+		
+	.title_group
+	{
+		/* font-family: "FoundersGrotesk"; */
+		/* font-weight: regular; */
+		/* font-style: normal; */
+		/* font-size: 1.2em; */
+		font-size: 15px; 
+		line-height: 18px
+	}
+	
+	/* body */
+	/* { */
+		/* font-size: 22px; */
+	/* } */
 }
     
     
