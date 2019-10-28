@@ -134,7 +134,7 @@ img.infographic {
 
 .description {
   font-size: 0.8em;
-    line-height: 1px;
+    /* line-height: 1px; */
 
 }
 
@@ -218,8 +218,6 @@ img.image_2
 }
 
 
-
-
 /*************************HOVER TITLE SECTIONS*************************************/
 .title_section_hover:hover
 {
@@ -250,10 +248,15 @@ img.image_2
 /************************FONT NAVBAR******************************/
 
 @media (max-width: 768px) { 
+
 	.navbar {
-		
 		font-size:1em;
+		font-size: 18px;
 	}
+	
+		
+	/* Portare giù Enache e Pagano*/
+	/* Controlla spazzi footer*/
 	
 	.title_infographic
 	{
@@ -261,7 +264,7 @@ img.image_2
 		/* font-style: normal; */
 		/* font-size: 3em; */
 		
-		font-size: 38px; 
+		font-size: 35px; 
 		font-weight: 600;
 	}
 	
@@ -275,10 +278,10 @@ img.image_2
 		line-height: 18px
 	}
 	
-	/* body */
-	/* { */
-		/* font-size: 22px; */
-	/* } */
+	.description_text {
+		font-size: 0.7em;
+		line-height: 15px;
+	}
 }
     
     
