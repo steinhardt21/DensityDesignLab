@@ -23,23 +23,19 @@
 	
   </head>
   
-  <body  onload="myFunction()" style="margin:0;"> 
+  <body onload="myFunction()"> 
    
 	<div id="loader"></div>
   
 	<div style="display:none;" id="myDiv" class="animate-bottom">
+	
 		<!-- The fixed navbar -->
 		<nav class="navbar nav sticky-top pl-0 pr-0">
 			<h4 class="navbar"> What if Internet Companies were countries?</h4> <!-- Title of the visualization-->
 			<h4 class="navbar text-right d-none d-md-block">Group 7</h4> <!-- Team number-->
 		</nav>
-	
 	 
-		<main>	
-
-			<!-- Preloader -->
-			<div class="spinner"> </div>
-		
+		<main>			
 			<!-- Title of the visualization and group members-->
 			<section class="container pb-md-5 pt-md-5 pb-5">
 				<div class="row">		
@@ -300,7 +296,7 @@
 		var myVar;
 
 		function myFunction() {
-		  myVar = setTimeout(showPage, 3000);
+		  myVar = setTimeout(showPage, 1000);
 		}
 
 		function showPage() {
